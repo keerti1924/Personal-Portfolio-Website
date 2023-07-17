@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+
+    <!-- **** Favicon icon link **** -->
+    <link rel="icon" href="pic1.png">
+
+    <!-- **** Fontawesome link **** -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- **** CSS link **** -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ****  Page loader start  **** -->
+    <div class="page-loader">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <!-- ****  Page loader end  **** -->
+
+
+    <!-- ****  Background Circles Start **** -->
+    <div class="bg-circles">
+        <div class="circle-1"></div>
+        <div class="circle-2"></div>
+        <div class="circle-3"></div>
+        <div class="circle-4"></div>
+    </div>
+    <!-- ****  Background Circles End **** -->
+
+
+    <!-- ****  Overlay Start  **** -->
+    <div class="overlay"></div>
+    <!-- ****  Overlay End  **** -->
+
+
+    <!-- ****  Main start  **** -->
+
+    <div class="main hidden">
+
+        <!-- ****  Header start  **** -->
+        <div class="header">
+            <div class="container">
+                <div class="row flex-end">
+                    <button class="nav-toggler" type="button">
+                        <span></span>
+                    </button>
+                    <nav class="nav">
+                        <div class="nav-inner">
+                            <ul>
+                                <li><a href="#home" class="nav-item link-item">home</a></li>
+                                <li><a href="#about" class="nav-item link-item">about</a></li>
+                                <li><a href="#portfolio" class="nav-item link-item">portfolio</a></li>
+                                <li><a href="#services" class="nav-item link-item">services</a></li>
+                                <li><a href="#contact" class="nav-item link-item">contact</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- ****  Header end  **** -->
+
+
+        <!-- ****  Home section start  **** -->
+        <section class="home-section" id="home">
+            <div class="container">
+                <div class="row">
+                    <div class="home-text">
+                        <h3>Hello, I'm</h3>
+                        <h1>Keerti Vishwkarma</h1>
+                        <h2>Full stack developer</h2>
+                        <p>
+                            A passionate Full Stack Developer 🚀 having an experience of building Websites with HTML /
+                            CSS / Bootstrap / JavaScript / PHP / Python and some other cool libraries and frameworks.
+                        </p>
+                        <a href="#about" class="btn link-item">more about me</a>
+                        <a href="#portfolio" class="btn link-item">portfolio</a>
+                    </div>
+                    <div class="home-img">
+                        <div class="img-box">
+                            <img src="images/pic1.png" alt="image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ****  Home section end  **** -->
+
+
+        <!-- ****  About section start  **** -->
+        <section class="about-section sec-padding" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <h2>about me</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="about-img">
+                        <div class="img-box">
+                            <img src="images/snap.jpg" alt="about image">
+                        </div>
+                    </div>
+                    <div class="about-text">
+                        <p>Hii there 👋,
+                            <br>I'm Keerti Vishwkarma. <br>
+                            I am a Full Stack Developer with a passion for building beautiful and user-friendly
+                            websites. I have a strong understanding of both front-end and back-end development and I am
+                            excited to push my skills to use in a professional setting. I am a quick learner and a team
+                            player and I am confident that I can be a valuable asset to any web development team.
+                        </p>
+                        <h3>Skills</h3>
+                        <div class="skills">
+                            <div class="skill-item">HTML</div>
+                            <div class="skill-item">CSS</div>
+                            <div class="skill-item">javascript</div>
+                            <div class="skill-item">bootstrap</div>
+                            <div class="skill-item">PHP</div>
+                            <div class="skill-item">wordpress</div>
+                            <div class="skill-item">mySQL</div>
+                            <div class="skill-item">laravel</div>
+                            <div class="skill-item">python</div>
+                            <div class="skill-item">mongoDB</div>
+                            <div class="skill-item">github</div>
+                            <div class="skill-item">time management</div>
+                            <div class="skill-item">communication</div>
+                            <div class="skill-item">creative thinking</div>
+                            <div class="skill-item">web design</div>
+                            <div class="skill-item">graphic design</div>
+                        </div>
+
+                        <div class="about-tabs">
+                            <button class="tab-item active" type="button" data-target="#education">education</button>
+                            <button class="tab-item" type="button" data-target="#experience">experience</button>
+                        </div>
+
+                        <!-- ****  Education start  **** -->
+
+                        <div class="tab-content active" id="education">
+                            <div class="timeline">
+
+                                <div class="timeline-item">
+                                    <span class="date">2023 - 2025</span>
+                                    <h4>Master of Computer Application <br> - <span>Chandigarh University,
+                                            Chandigarh</span></h4>
+                                    <p>The objective of MCA is to develop information and technology professionals. The
+                                        MCA degree provides both theoretical as well as practical knowledge.</p>
+                                </div>
+
+                                <div class="timeline-item">
+                                    <span class="date">2022 - 2024</span>
+                                    <h4>Advance Diploma in IT, Networking and Cloud Computing <br>- <span>National Skill
+                                            Training Institute, Bangalore</span></h4>
+                                    <p>The course is for two years duration. In the first year there are five core
+                                        modules each module is credit based and employable. Each module is of 320 hours
+                                        and is very much independent.</p>
+                                </div>
+
+                                <div class="timeline-item">
+                                    <span class="date">2017 - 2020</span>
+                                    <h4>Bachelor of Science <br>- <span>Bundelkhand university, Jhansi</span></h4>
+                                    <p>B.Sc. is a 3-year undergraduate course that provides students with a strong
+                                        foundation in the sciences. </p>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!-- ****  Education end  **** -->
+
+                        <!-- ****  Experience start  **** -->
+
+                        <div class="tab-content" id="experience">
+                            <div class="timeline">
+                                <div class="timeline-item">
+                                    <p>No Experience</p>
+                                    <h4>- Fresher</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- ****  Experience end  **** -->
+
+                        <a href="keerti_resume.pdf" class="btn" target="_blank">download CV</a>
+                        <a href="#contact" class="btn link-item">contact me</a>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ****  About section end  **** -->
+
+
+        <!-- ****  Portfolio section start  **** -->
+        <section class="portfolio-section sec-padding" id="portfolio">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <h2>recent work</h2>
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <!-- ****  Portfolio Item start  **** -->
+
+                    <div class="portfolio-item">
+                        <div class="portfolio-item-thumbnail">
+                            <img src="images/project1.jpg" alt="">
+                        </div>
+                        <h3 class="portfolio-item-title">Responsive Restaurant Website</h3>
+                        <p>A landing page template for a restaurant. It employs the use of HTML, CSS and Javascript.</p>
+                        <button type="button" class="btn view-project-btn">view project</button>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <p>A landing page template for a restaurant. It employs the use of HTML, CSS and
+                                    Javascript to build it.This is a sample project of creating a Restaurant website
+                                    that is for a restaurant to deliver its services via online website.
+                                    It consists of sections like home ,popular dishes, reviews, faq, contact ,finally
+                                    about the restaurant and crew members of the restaurant followed by quick links of
+                                    the page and social media links of the restaurant .</p>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li>Created - <span>3 Jul 2023</span></li>
+                                    <li>technologies used - <span>HTML, CSS, Bootstrap and JavaScript</span></li>
+                                    <li>Role - <span>Frontend</span></li>
+                                    <li>view online - <span><a
+                                                href="https://keerti1924.github.io/Responsive-Restaurant-Website/"
+                                                target="_blank">Live Demo</a></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ****  Portfolio Item end  **** -->
+
+                    <!-- ****  Portfolio Item start  **** -->
+
+                    <div class="portfolio-item">
+                        <div class="portfolio-item-thumbnail">
+                            <img src="images/project2.jpg" alt="">
+                        </div>
+                        <h3 class="portfolio-item-title">Netflix Landing Page</h3>
+                        <p>Netflix Landing Page Clone made with HTML, CSS and JAVASCRIPT.</p>
+                        <button type="button" class="btn view-project-btn">view project</button>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <p>Netflix Landing Page Clone made with HTML, CSS and JAVASCRIPT. I have also made it
+                                    responsive to work on various devices.</p>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li>Created - <span>13 Jul 2023</span></li>
+                                    <li>technologies used - <span>HTML, CSS</span></li>
+                                    <li>Role - <span>Frontend</span></li>
+                                    <li>view online - <span><a href="https://keerti1924.github.io/Netflix-Landing-Page/"
+                                                target="_blank">Live Demo</a></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ****  Portfolio Item end  **** -->
+
+                    <!-- ****  Portfolio Item start  **** -->
+
+                    <div class="portfolio-item">
+                        <div class="portfolio-item-thumbnail">
+                            <img src="images/project3.jpg" alt="">
+                        </div>
+                        <h3 class="portfolio-item-title">To Do list</h3>
+                        <p>To-do list is a set of tasks that each render on a separate line with a clickable checkbox.
+                        </p>
+                        <button type="button" class="btn view-project-btn">view project</button>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <p>To-do list is a set of tasks that each render on a separate line with a clickable
+                                    checkbox. You can select or deselect the checkboxes to mark the tasks as complete or
+                                    incomplete.</p>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li>Created - <span>5 Jul 2023</span></li>
+                                    <li>technologies used - <span>HTML, CSS and JavaScript</span></li>
+                                    <li>Role - <span>Frontend</span></li>
+                                    <li>view online - <span><a href="https://keerti1924.github.io/To-Do-List/"
+                                                target="_blank">Live Demo</a></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ****  Portfolio Item end  **** -->
+
+                    <!-- ****  Portfolio Item start  **** -->
+
+                    <div class="portfolio-item">
+                        <div class="portfolio-item-thumbnail">
+                            <img src="images/project4.jpg" alt="">
+                        </div>
+                        <h3 class="portfolio-item-title">Construction Website Landing Page</h3>
+                        <p>Responsive Landing Page Website. Created for a construction company.</p>
+                        <button type="button" class="btn view-project-btn">view project</button>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <p>Responsive Landing Page Website. Created for a construction company. A simple website
+                                    with some interesting features created with HTML , CSS, Bootstrap and JavaScript for
+                                    learning purposes.</p>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li>Created - <span>14 Jul 2023</span></li>
+                                    <li>technologies used - <span>HTML, CSS, Bootstrap and JavaScript</span></li>
+                                    <li>Role - <span>Frontend</span></li>
+                                    <li>view online - <span><a
+                                                href="https://keerti1924.github.io/Construction-Website-Landing-Page/"
+                                                target="_blank">Live Demo</a></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ****  Portfolio Item end  **** -->
+
+                    <!-- ****  Portfolio Item start  **** -->
+
+                    <div class="portfolio-item">
+                        <div class="portfolio-item-thumbnail">
+                            <img src="images/project5.jpg" alt="">
+                        </div>
+                        <h3 class="portfolio-item-title">Personal Portfolio Website</h3>
+                        <p>Software Developer Portfolio that helps showcase my work and skills as a
+                            software developer.</p>
+                        <button type="button" class="btn view-project-btn">view project</button>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <p>🚀 Software Developer Portfolio Template that helps you showcase your work and skills
+                                    as a software developer.</p>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li>Created - <span>16 Jul 2023</span></li>
+                                    <li>technologies used - <span>HTML, CSS and JavaScript</span></li>
+                                    <li>Role - <span>Frontend</span></li>
+                                    <li>view online - <span><a href="https://keerti1924.github.io/portfolio-website/"
+                                                target="_blank">Live Demo</a></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ****  Portfolio Item end  **** -->
+
+                    <!-- ****  Portfolio Item start  **** -->
+
+                    <div class="portfolio-item">
+                        <div class="portfolio-item-thumbnail">
+                            <img src="images/project6.jpg" alt="">
+                        </div>
+                        <h3 class="portfolio-item-title">Simple JavaScript Calculator</h3>
+                        <p>A simple calculator made using HTML, CSS and JavaScript.</p>
+                        <button type="button" class="btn view-project-btn">view project</button>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <p>A simple calculator made using HTML, CSS and JavaScript to perform basic mathematical
+                                    operations with an appealing and responsive UI.</p>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li>Created - <span>15 Jul 2023</span></li>
+                                    <li>technologies used - <span>HTML, CSS and JavaScript</span></li>
+                                    <li>Role - <span>Frontend</span></li>
+                                    <li>view online - <span><a
+                                                href="https://keerti1924.github.io/Simple-JavaScript-Calculator/"
+                                                target="_blank">Live Demo</a></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ****  Portfolio Item end  **** -->
+                </div>
+            </div>
+        </section>
+        <!-- ****  Portfolio section end  **** -->
+
+
+        <!-- ****  Service section start  **** -->
+        <section class="services-section sec-padding" id="services">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <h2>services</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="services">
+                        <div class="services-item">
+                            <img src="images/web-design.png" alt="">
+                            <h3>Web Design</h3>
+                            <p>I will professional and responsive website design for business. I will do web design and
+                                build professional website or landing page. </p>
+                        </div>
+                        <div class="services-item">
+                            <img src="images/graphic-designer.png" alt="">
+                            <h3>Graphic Designer</h3>
+                            <p>I will do your graphic design works professionally.I will create simple graphic logo
+                                design for your startup business.</p>
+                        </div>
+                        <div class="services-item">
+                            <img src="images/full-stack.png" alt="">
+                            <h3>Full Stack Development</h3>
+                            <p>I will be your full stack, PHP and MySQL web developer. I will be your frontend web
+                                developer, HTML, CSS, Bootstrap and JavaScript. I will be your backend PHP, Laravel web
+                                developer.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ****  Service section end  **** -->
+
+
+        <!-- ****  Contact Section start  **** -->
+        <section class="contact-section sec-padding" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <h2>contact me</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="contact-form">
+                        <form action="mailto:keertidvcorai@gmail.com" method="GET" enctype="text/plain">
+                            <div class="row">
+                                <div class="input-group">
+                                    <input type="text" placeholder="Name" class="input-control" required>
+                                </div>
+                                <div class="input-group">
+                                    <input type="email" placeholder="Email" class="input-control" required>
+                                </div>
+                                <div class="input-group">
+                                    <input type="text" placeholder="Subject" class="input-control" required>
+                                </div>
+                                <div class="input-group">
+                                    <textarea placeholder="Message" class="input-control" required></textarea>
+                                </div>
+                                <div class="submit-btn">
+                                    <button class="btn" type="submit">send message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="contact-info">
+                        <div class="contact-info-item">
+                            <h3>You have a new project</h3>
+                            <p>Contact me now and get a 30% discount on your new project.</p>
+                            <a href="mailto:keertidvcorai@gmail.com"><button class="btn">Contact Me <i
+                                        class="fa fa-comment"></i></button></a>
+                        </div>
+                        <div class="contact-info-item">
+                            <h3>Email</h3>
+                            <p>keertidvcorai@gmail.com</p>
+                        </div>
+                        <div class="contact-info-item">
+                            <h3>Phone</h3>
+                            <p>+91 9005533066</p>
+                        </div>
+                        <div class="contact-info-item">
+                            <h3>follow me</h3>
+                            <div class="social-links">
+
+                                <a href="https://www.facebook.com/keerti.vishwkarma" target="_blank"><i
+                                        class="fa fa-facebook-f"></i></a>
+
+                                <a href="https://www.linkedin.com/in/keerti-vishwkarma-8ba754243/" target="_blank"><i
+                                        class="fa fa-linkedin"></i></a>
+
+                                <a href="https://www.instagram.com/keertivishwkarma1924/" target="_blank"><i
+                                        class="fa fa-instagram"></i></a>
+
+                                <a href="https://dribbble.com/keertiv1924" target="_blank"><i
+                                        class="fa fa-dribbble"></i></a>
+
+                                <a href="https://github.com/keerti1924" target="_blank"><i class="fa fa-github"></i></a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- ****  Contact Section end  **** -->
+
+
+    </div>
+
+    <!-- ****  Main end  **** -->
+
+
+    <!-- ****  portfolio item details popup start  **** -->
+    <div class="portfolio-popup">
+        <div class="pp-inner">
+            <div class="pp-content">
+                <div class="pp-header">
+                    <button type="button" class="btn pp-close"><i class="fa fa-times"></i></button>
+                    <div class="pp-thumbnail">
+                        <img src="img1.png" alt="">
+                    </div>
+                    <h3></h3>
+                </div>
+                <div class="pp-body">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ****  portfolio item details popup end  **** -->
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
